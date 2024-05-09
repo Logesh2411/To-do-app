@@ -1,0 +1,34 @@
+.Todo{
+//    background-color: antiquewhite;
+    // flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.fa-Trash{
+    margin-left: 30px;
+}
+
+.icon-btn{
+    justify-content: space-between;
+   margin-right: 10px;
+   font-size: 1.5rem;
+}
+
+.icon-bt{
+    font-size: 1.5rem;
+}
+
+span{
+    cursor: pointer;
+    width: 200px;
+    overflow:hidden;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.completed{
+    text-decoration: line-through;
+}

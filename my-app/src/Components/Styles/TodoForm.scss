@@ -1,0 +1,45 @@
+body{
+    // background-color:#20B2AA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../Image/scene-Dumbo.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.todo-input{
+    border: none;
+    background-color: #fff;
+    width: 300px;
+    height: 50px;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-right: 2px;
+    &:hover{
+        background-color:#fdfdfd ;  
+        border: 2px solid black; 
+    }
+}
+
+.todo-btn{
+    width: 60px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: black;
+    &:hover{
+        transition: 2s;
+        background-color: #ff9ca5;
+    }
+}
+
+::placeholder {
+    color: grey;
+    font-size: larger;
+    margin-left: 10px;
+  }
