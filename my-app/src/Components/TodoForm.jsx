@@ -1,4 +1,6 @@
 import React,{useState} from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAdd } from '@fortawesome/free-solid-svg-icons'
 import './Styles/TodoForm.scss'
 
 const TodoForm = ({addTodo}) =>
@@ -21,7 +23,10 @@ const TodoForm = ({addTodo}) =>
                     value={value}
                     onChange={(e)=>setValue(e.target.value)}
                     />
-                    <button type="submit" className="todo-btn">Add</button>
+                    
+                    <button type="submit" className="todo-btn">
+                        <FontAwesomeIcon icon={faAdd} className="faAdd" />
+                    </button>
                 </form>
             </>
         )
